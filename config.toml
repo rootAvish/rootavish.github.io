@@ -1,0 +1,62 @@
+## Basic Configuration
+
+baseurl = "https://rootavish.github.io/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Avishkar Gupta"
+title = "Avishkar Gupta"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Avishkar Gupta"
+intro = "Machine learning and software engineering."
+description = "Currently @Red Hat. Previously @Infoedge, 99acres.com, @GSoC alumna."
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Avishkar Gupta's Technology Journal"
+keywords = "machine-learning,deep-learning,data-science,software-engineering,technology"
+
+## Social Accounts
+[params.social]
+github = "rootavish"
+linkedin = "avishkar-gupta"
+twitter = "beingavishkar"
+email = "avishkar.gupta.delhi@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2020. Avishkar Gupta. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/posts/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "My CV"
+    identifier = "resume"
+    url = "https://drive.google.com/file/d/1PVA_UwPT1g552vQOhMDXMTskwNVM-mRA/view?usp=sharing"
