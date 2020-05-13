@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>not-technology on Avishkar Gupta</title>
+    <link>https://rootavish.github.io/categories/not-technology/</link>
+    <description>Recent content in not-technology on Avishkar Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 12 May 2020 17:14:22 +0530</lastBuildDate>
+    
+	<atom:link href="https://rootavish.github.io/categories/not-technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Redesign #N</title>
+      <link>https://rootavish.github.io/posts/the-nth-redesign/</link>
+      <pubDate>Tue, 12 May 2020 17:14:22 +0530</pubDate>
+      
+      <guid>https://rootavish.github.io/posts/the-nth-redesign/</guid>
+      <description>I started my journey of programming in anything other than C/C++ way back in 2013. At the time I had terrible knowledge of git, formatting in general, markdown was a really foreign thing and I was not comfortable getting my hands dirty with different programming languages without &amp;ldquo;learning&amp;rdquo; the language itself first. I however, was one to experiment and even though I had a real bad artistic sense, I do like to think I had a decent sense of aesthetics.</description>
+    </item>
+    
+  </channel>
+</rss>

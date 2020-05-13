@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Avishkar Gupta</title>
+    <link>https://rootavish.github.io/categories/</link>
+    <description>Recent content in Categories on Avishkar Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 12 May 2020 17:14:22 +0530</lastBuildDate>
+    
+	<atom:link href="https://rootavish.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>not-technology</title>
+      <link>https://rootavish.github.io/categories/not-technology/</link>
+      <pubDate>Tue, 12 May 2020 17:14:22 +0530</pubDate>
+      
+      <guid>https://rootavish.github.io/categories/not-technology/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
