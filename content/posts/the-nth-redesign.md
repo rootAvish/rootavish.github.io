@@ -68,8 +68,8 @@ could double up as portfolio and blog site so it's convenient for poeple to
 "industry work experience" and about six years of paid work otherwise, I have
 developed a decent understanding of CI/CD, Golang and everything else that goes
 into the development of this really simple site. I learnt Golang back in 2019
-because we did [a year long project.](https://github.com/fabric8-analytics/poc-ocp-upgrade-prediction)
-which was all about this so Hugo seemed like a decent enough choice. I know
+because we did [a year long project](https://github.com/fabric8-analytics/poc-ocp-upgrade-prediction)
+so Hugo seemed like a decent enough choice. I know
 enough of it to edit any source code and TBH I've always hated Ruby and Jekyll,
 I only used it whenever I did because either my friends did or for Jekyll's
 default theme that I really liked. There was also Wintersmith but eh, it too was

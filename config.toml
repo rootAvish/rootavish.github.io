@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Avishkar Gupta"
 intro = "Machine learning and software engineering."
-description = "Currently @Red Hat. Previously @Infoedge, 99acres.com, @GSoC alumna."
+description = "Currently @Red Hat. Previously @Infoedge in 99acres.com, @GSoC alumna."
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -59,4 +59,4 @@ hightlightjs = true
 [[menu.main]]
     name = "My CV"
     identifier = "resume"
-    url = "https://drive.google.com/file/d/1PVA_UwPT1g552vQOhMDXMTskwNVM-mRA/view?usp=sharing"
+    url = "https://drive.google.com/file/d/1QsOTBAC0Re_ajJTODxreHRajElEnudMm/view?usp=sharing"

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Avishkar Gupta</title>
+    <link>https://rootavish.github.io/tags/</link>
+    <description>Recent content in Tags on Avishkar Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 12 May 2020 17:14:22 +0530</lastBuildDate><atom:link href="https://rootavish.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog-introduction</title>
+      <link>https://rootavish.github.io/tags/blog-introduction/</link>
+      <pubDate>Tue, 12 May 2020 17:14:22 +0530</pubDate>
+      
+      <guid>https://rootavish.github.io/tags/blog-introduction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foundation</title>
+      <link>https://rootavish.github.io/tags/foundation/</link>
+      <pubDate>Tue, 12 May 2020 17:14:22 +0530</pubDate>
+      
+      <guid>https://rootavish.github.io/tags/foundation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thoughts</title>
+      <link>https://rootavish.github.io/tags/thoughts/</link>
+      <pubDate>Tue, 12 May 2020 17:14:22 +0530</pubDate>
+      
+      <guid>https://rootavish.github.io/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
