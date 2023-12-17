@@ -22,8 +22,8 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Avishkar Gupta"
-intro = "Machine learning and software engineering."
-description = "Currently @Red Hat. Previously @Infoedge in 99acres.com, @GSoC alumna."
+intro = "Machine learning and software engineering"
+description = "Currently @Haptik. Previously @Red Hat @Infoedge in 99acres.com, @GSoC alumnus."
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -41,7 +41,7 @@ email = "avishkar.gupta.delhi@gmail.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2020. Avishkar Gupta. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2023. Avishkar Gupta. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = true
 hightlightjs = true
 
@@ -52,11 +52,6 @@ hightlightjs = true
     identifier = "blog"
     url = "/posts/"
 [[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
     name = "My CV"
     identifier = "resume"
-    url = "https://drive.google.com/file/d/1QsOTBAC0Re_ajJTODxreHRajElEnudMm/view?usp=sharing"
+    url = "https://drive.google.com/file/d/1aUa5QWDoN0UJUwpgMGGc8fHE6hOfIfFW/view?usp=sharing"
