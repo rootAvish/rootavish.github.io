@@ -39,6 +39,11 @@ linkedin = "avishkar-gupta"
 twitter = "beingavishkar"
 email = "avishkar.gupta.delhi@gmail.com"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 ## Extras
 [params.extra]
 copyright = "© 2023. Avishkar Gupta. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
