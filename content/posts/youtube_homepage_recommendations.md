@@ -179,6 +179,15 @@ hole to go down. Fair warning there's a bunch of other rabbit holes ahead for an
 * An option in language modeling is to use the distribution over unigrams, here it would be to do it based on the number of views.
 * They however have not mentioned what proposal distribution they used.
 * For infernce, they are using a NN search approach that looks quite similar to FAISS + embeddings (how?)
+  - So this one was counterintuitive even for me to understand, but here's how I think this works.
+  - The general way this is done now is what's called a "two tower approach" in which you train using a cosine similarity based pairwise ranking loss, two networks that create user and item embeddings.
+  - If you've done NLP, you'd recognise the above as being the siamese architecture used in DPR, sentence transformers and other such similarity embedding techniques.
+  - So the unintuitive part here, is to convince yourself that the video embedding they use and the user embeddings are in the same embedding space. With words it's simpler to see, but you can convince yourself of the same by trying to think of what they're treating as a video embedding in the nearest neighbor index - it's the weights learned against each item in the last weight matrix (softmax l"layer") of the candidate generation network.
+  - If a user vector is 1, i.e. the user does not have any preference the dot product output would be v<sub>j</sub>  itself.
+  - So you can put those in an inverted index and then at runtime, query using the user vector's embedding in that space for approximate nearest neighbors.
+  - The user embedding itself can be thought of as the average of some "topics" and "creators" the user would be interested in at time t.
+
+To drill down the last unintuitive part of this what helped me was [this excellent blog post](https://aman.ai/recsys/candidate-gen/#deep-neural-network-based-recommendations) which I think is a bit inaccurate in that Youtube doesn't do a two tower model in the "real" way it's done today (I could be wrong but he doesn't cite a post). There's also [this talk on Recommender Systems](https://www.youtube.com/watch?v=hADpql1PuPY) that I saw parts of and [this Google developer link](https://developers.google.com/machine-learning/recommendation/dnn/retrieval) which in-passing and through that graphic really cconveys something beautiful.
 
 ### Model specifics
 
