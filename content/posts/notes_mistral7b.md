@@ -1,5 +1,5 @@
 ---
-title: "Notes on \"Mistral 7B’s secrets: a talk by Guillaume Lample\""
+title: "Notes on \"Mistral 7B’s secrets\" talk by Lample"
 date: 2023-12-17T14:17:18+05:30
 draft: false
 categories:
