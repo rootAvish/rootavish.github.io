@@ -10,15 +10,6 @@
 {
     width: device-width;
 }
-a,
-a:hover,
-a:visited,
-a:link
-{
-    text-decoration: none;
-
-    color: #526d7a;
-}
 body
 {
     font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;

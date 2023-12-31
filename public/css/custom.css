@@ -1,1 +1,9 @@
 /* Add custom CSS here. */
+a,
+a:hover,
+a:visited,
+a:link
+{
+    text-decoration: none;
+    color: #337ab7;
+}
