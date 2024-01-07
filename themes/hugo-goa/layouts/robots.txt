@@ -1,0 +1,9 @@
+User-agent: GPTBot
+Disallow: /posts/
+
+User-agent: CCBot
+Disallow: /posts/
+
+
+User-agent: *
+Disallow:
