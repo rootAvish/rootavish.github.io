@@ -1,7 +1,7 @@
 ---
 title: "Neovim First Time Setup Experience"
 date: 2023-12-25T16:36:36+05:30
-draft: false
+draft: true
 tags:
 - productivity
 - developer setup
